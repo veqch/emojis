@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Animation</title>
+    <style media="screen">
+    body {
+      background: black;
+    }
+      .emoji2 {
+        height: 160px;
+        width: 160px;
+        display: inline-block;
+        position: relative;
+        background: url('dz/emoji2.png');
+      }
+      .emoji-m2 {
+        height: 160px;
+        width: 160px;
+        display: block;
+        position: absolute;
+        background: url('dz/emoji2.png');
+        top: 0;
+        left: 0;
+        background-position: -160px top;
+      }
+      .emoji-e2 {
+        height: 160px;
+        width: 160px;
+        display: block;
+        position: absolute;
+        background: url('dz/emoji2.png');
+        top: 0;
+        left: 0;
+        background-position: -800px top;
+      }
+      .mouth2 {
+        animation: mouth2 1s steps(1) infinite;
+      }
+      .eyes2 {
+        animation: eyes2 1s steps(1) infinite;
+      }
+      .emoji3 {
+        height: 160px;
+        width: 160px;
+        display: inline-block;
+        position: relative;
+        background: url('dz/emoji3.png');
+      }
+      .emoji-s {
+        height: 160px;
+        width: 160px;
+        display: block;
+        position: absolute;
+        background: url('dz/emoji3.png');
+        top: 0;
+        left: 0;
+        background-position: -160px top;
+      }
+      .emoji-e3 {
+        height: 160px;
+        width: 160px;
+        display: block;
+        position: absolute;
+        background: url('dz/emoji3.png');
+        top: 0;
+        left: 0;
+        background-position: -800px top;
+      }
+      .stars {
+        animation: stars 1s steps(1) infinite;
+      }
+      .eyes3 {
+        animation: eyes3 1s steps(1) infinite;
+      }
+      .emoji4 {
+        height: 160px;
+        width: 160px;
+        display: inline-block;
+        position: relative;
+        background: url('dz/emoji4.png');
+      }
+      .emoji-h {
+        height: 160px;
+        width: 160px;
+        display: block;
+        position: absolute;
+        background: url('dz/emoji4.png');
+        top: 0;
+        left: 0;
+        background-position: -160px top;
+      }
+      .emoji-e4 {
+        height: 160px;
+        width: 160px;
+        display: block;
+        position: absolute;
+        background: url('dz/emoji4.png');
+        top: 0;
+        left: 0;
+        background-position: -800px top;
+      }
+      .hand {
+        animation: hand 1s steps(1) infinite;
+      }
+      .eyes4 {
+        animation: eyes4 1s steps(1) infinite;
+      }
+      .emoji5 {
+        height: 160px;
+        width: 160px;
+        display: inline-block;
+        position: relative;
+        background: url('dz/emoji5.png');
+      }
+      .emoji-e5 {
+        height: 160px;
+        width: 160px;
+        display: block;
+        position: absolute;
+        background: url('dz/emoji5.png');
+        top: 0;
+        left: 0;
+        background-position: -160px top;
+      }
+      .eyes5 {
+        animation: eyes5 5s steps(1) infinite;
+      }
+      .emoji6 {
+        height: 160px;
+        width: 160px;
+        display: inline-block;
+        position: relative;
+        background: url('dz/emoji6.png');
+      }
+      .emoji-e6 {
+        height: 160px;
+        width: 160px;
+        display: block;
+        position: absolute;
+        background: url('dz/emoji6.png');
+        top: 0;
+        left: 0;
+        background-position: -160px top;
+      }
+      .emoji-h6 {
+        height: 160px;
+        width: 160px;
+        display: block;
+        position: absolute;
+        background: url('dz/emoji6.png');
+        top: 0;
+        left: 0;
+        background-position: -800px top;
+      }
+      .eyes6 {
+        animation: eyes6 1s steps(1) infinite;
+      }
+      .hand6 {
+        animation: hand6 1s steps(1) infinite;
+      }
+      @keyframes mouth2 {
+      0% {background-position: -160px top;}
+      33% {background-position: -320px top;}
+      66% {background-position: -480px top;}
+      }
+      @keyframes eyes2 {
+      0% {background-position: -640px top;}
+      33% {background-position: -800px top;}
+      66% {background-position: -960px top;}
+      }
+      @keyframes stars {
+      0% {background-position: -160px top;}
+      33% {background-position: -320px top;}
+      66% {background-position: -480px top;}
+      }
+      @keyframes eyes3 {
+      0% {background-position: -640px top;}
+      33% {background-position: -800px top;}
+      66% {background-position: -960px top;}
+      }
+      @keyframes hand {
+      0% {background-position: -160px top;}
+      33% {background-position: -320px top;}
+      66% {background-position: -480px top;}
+      }
+      @keyframes eyes4 {
+      0% {background-position: -640px top;}
+      33% {background-position: -800px top;}
+      66% {background-position: -960px top;}
+      }
+      @keyframes eyes5 {
+      0% {background-position: -160px top;}
+      20% {background-position: -320px top;}
+      40% {background-position: -480px top;}
+      60% {background-position: -638px top;}
+      }
+      @keyframes eyes6 {
+      0% {background-position: -160px top;}
+      16% {background-position: -320px top;}
+      32% {background-position: -500px top;}
+      }
+      @keyframes hand6 {
+      48% {background-position: -690px top;}
+      64% {background-position: -920px top;}
+      89% {background-position: -1120px top;}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="emoji2 spin">
+      <div class="emoji-m2 mouth2"></div>
+      <div class="emoji-e2 eyes2"></div>
+    </div>
+    <div class="emoji3 spin">
+      <div class="emoji-s stars"></div>
+      <div class="emoji-e3 eyes3"></div>
+    </div>
+    <div class="emoji4 spin">
+      <div class="emoji-h hand"></div>
+      <div class="emoji-e4 eyes4"></div>
+    </div>
+    <div class="emoji5 spin">
+      <div class="emoji-e5 eyes5"></div>
+    </div>
+    <div class="emoji6 spin">
+      <div class="emoji-e6 eyes6"></div>
+      <div class="emoji-h6 hand6"></div>
+    </div>
+
+  </body>
+</html>
